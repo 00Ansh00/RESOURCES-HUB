@@ -13,7 +13,7 @@
             margin-top: 0px;
             margin-bottom: 0px;
             color:rgba(41, 8, 108, 0.059);
-            background-image: url("index-bcg.jpg");
+            background-image: url(" img/index-bcg.jpg");
             background-size:cover ;
         } 
        footer ul {
@@ -51,6 +51,12 @@
             color:white;
             
         }
+        footer ol li img{
+            justify-items: left;
+        }
+        footer ol{
+            list-style: none;
+        }
         .resource{
             display: inline-block;
             vertical-align: top;
@@ -84,7 +90,15 @@
           color:aliceblue;
             text-decoration: none;
         }
-
+         .link-img{
+            justify-items: left;
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-left: 10px;
+            margin-inline-start: 5px;
+            display: inline-block;
+            vertical-align: top;
+         }
 
         
         .resource a:hover{
@@ -210,18 +224,22 @@
     </div>
 </div>
     
-    <footer style=" color: aliceblue; background-color: rgba(0, 0, 0, 0.484); text-align: center; display: grid;">
+    <footer style=" color: aliceblue; background-color: rgba(0, 0, 0, 0.484); ">
         
-            <p style="font-size: larger;">&copy;| all right reserved</p>
+            <p style="font-size: larger;">&copy;      |    all right reserved</p>
          
-        <section id="contact" style="display: inline-block;">
+        <section id="contact">
+        <div class="link-img">
+        <a href=""><p><img src="img\GITHUB-LOGO.png" height="25px" width="25px"></p></a></div>
+        <div class="link-img">
+        <a href=""><img src="img\GMAIL-LOGO.png" height="25px" width="25px"></a></div>
+        <div class="link-img">
+        <a href=""><img src="img\linkedin-logo.png" height="25px" width="25px"></a></div>
+        <div class="link-img">
+         <a href="terms.html">terms and condition</a></div>
         
-      <p>  <a href=""><img src="GITHUB-LOGO.png" height="50px" width="50px"></a>
-        <a href=""><img src="GMAIL-LOGO.png" height="50px" width="50px"></a>
-        <a href=""><img src="linkedin-logo.png" height="50px" width="50px"></a>
-         <a href="terms.html">terms and condition</a></p>
-        </footer>
         </section>
+        </footer>
     
 
 </body>
