@@ -5,8 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        html{
-            margin-bottom: 0px;
+        footer ul li a img{
+            display:inline;
+            margin-top:20px;
+            
+            
+            
         }
          body{
            max-height:min-content;
@@ -35,8 +39,8 @@
         .container{
             display: inline-block;
             vertical-align: top;
-            height:100px;
-            width: 150px;
+            height:150px;
+            width: 300px;
             background-color:  rgb(54, 53, 53);
             border: 2px solid black;
             border-radius: 8px 8px 8px 8px;
@@ -44,17 +48,22 @@
             border-top: 15px solid rgb(10, 11, 11);
             border-top-right-radius: 10px;
             color: white;
-            margin:30px;
+            margin:50px;
             padding:5px;
             text-wrap: 5px;
             word-wrap: break-word;
             align-content: center;
-            margin-top: 0px;
-            margin-bottom: 20px;
+            margin-top: 30px;
+            margin-bottom: 0px;
         }
         a{
           color:aliceblue;
             text-decoration: none;
+        }
+        .wrapper{
+            min-height: 100%;
+           /* display: flex;
+            flex-direction: column;*/
         }
         .resource a{
             background-color: rgb(54, 53, 53);
@@ -70,6 +79,10 @@
             vertical-align: top;
             margin-inline: 2px;
             margin-top: 10px;
+            height: 20px;
+            width:85px;
+            margin:30px;
+            margin-left: 20px;
         }
         .container:hover{
             box-shadow: inset;
@@ -91,6 +104,9 @@
             border-radius: 50%;
             margin-bottom: 20px;
         }
+        footer ul{
+            list-style: none;
+        }
     </style>
 </head>
 <body>
@@ -106,6 +122,7 @@
         <h1 style="font-size: xx-large;text-align: center; color: aliceblue;" >resource hub 1st year</h1>
         <img src=" img\1st.jpg" height="250" width="250" >
     </header> 
+    <div class="wrapper">
     <div class="container" >
         <h>engineering physics</h>
         <div class="resource">
@@ -169,13 +186,14 @@
             <a href="">PYQS</a>
         </div>
     </div>
+</div>
 
-    <footer style=" color: aliceblue; background-color: rgba(0, 0, 0, 0.484);">
+    <footer style=" color: aliceblue; background-color: rgba(0, 0, 0, 0.484); height: 300px;">
         <section id="contact">
            <!-- <p>Disclaimer: This website is created for educational purposes only. The content is sourced from askbooks.net and is used to provide information to learners. All rights and copyrights for the original material belong to askbooks.net. If there are any concerns regarding the use of content, please contact us at priyanshudubey5237@gmail.com.</p>
         </p>-->
        <ul> 
-        <li><a href=""><img src="img\GITHUB-LOGO.png" height="50px" width="50px"></a></li>
+        <li><a href=""><img src="img\GITHUB-LOGO.png" height="50px" width="50px " border-radius:50%;></a></li>
         <li><a href=""><img src="img\GMAIL-LOGO.png" height="50px" width="50px"></a></li>
        <li><a href=""><img src="img\linkedin-logo.png" height="50px" width="50px"></a></li>
         <li><a href="terms.html">terms and condition</a></li>
